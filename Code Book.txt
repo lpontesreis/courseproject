@@ -1,0 +1,28 @@
+This is the code book to describe the variables:
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ: time domain total body acceleration. The units are standard gravity units 'g'.
+tGravityAcc-XYZ: time domain total gravity acceleration. The units are standard gravity units 'g'.
+tBodyAccJerk-XYZ: time domain body linear acceleration. The units are standard gravity units 'g'.
+tBodyGyro-XYZ: Time domain of the angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+tBodyGyroJerk-XYZ: Jerk signal of time domain body angular velocity. The units are radians/second.
+tBodyAccMag: magnitude using the Euclidean norm of the three-dimensional time domain total body acceleration. The units are standard gravity units 'g'.
+tGravityAccMag: magnitude using the Euclidean norm of the three-dimensional time domain gravity acceleration. The units are standard gravity units 'g'.
+tBodyAccJerkMag: magnitude using the Euclidean norm of the three-dimensional Jerk signal time domain body linear acceleration.
+tBodyGyroMag: magnitude using the Euclidean norm of the three-dimensional time domain angular velocity vector measured by the gyroscope. The units are radians/second
+tBodyGyroJerkMag: magnitude using the Euclidean norm of the three-dimensional Jerk signal time domain body linear acceleration measured by the gyroscope. The units are radians/second
+fBodyAcc-XYZ: Fast Fourier Transform of total body acceleration. The units are 1/g.
+fBodyAccJerk-XYZ: Fast Fourier Transform of total gravity acceleration. The units are 1/g.
+fBodyGyro-XYZ: Fast Fourier Transform of the angular velocity vector measured by the gyroscope.
+fBodyAccMag: Fast Fourier Transform of the magnitude of total body acceleration. The units are 1/g.
+fBodyAccJerkMag: Fast Fourier Transform of the magnitude of Jerk signal of body angular velocity. The units are 1/g.
+fBodyGyroMag: Fast Fourier Transform of the magnitude of body angular velocity measured by the gyroscope. The units are seconds/radian.
+fBodyGyroJerkMag: Fast Fourier Transform of the magnitude of Jerk signal of the angular velocity measured by the gyroscope. The units are seconds/radian.
+
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation

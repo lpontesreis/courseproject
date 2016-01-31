@@ -1,7 +1,7 @@
 #read files to data set
 
 #creates path to the files
-path <- "C:/DataScience"
+path <- getwd()
 
 #first, create a vector with the names of the files
 

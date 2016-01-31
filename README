@@ -1,0 +1,9 @@
+This is the code describing the steps provided in run_analysis.R.
+First, the system finds out what is the current working directory.
+After that, it will create a vector with possible names for the measurement data (it will be discarded later in the final dataset).
+Then, we read the training sets and the testing sets using read.table(), which are merged using rbind.
+We then read activity labels to name the columns, including also subject and activity as column names.
+To replace the activity numbers with appropriate labels, we use the activity_labels.txt file and replace in the appropriate column.
+Now we have a very big dataset which should be trimmed down.
+Using grepl(), we keep only the columns with mean() and std() in their names.
+Finally, we create a new data.frame for each subject and activity (30 subjects x 6 activities = 180 rows).
